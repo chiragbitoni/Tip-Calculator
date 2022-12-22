@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    
+    <div id="wrapper">
+        <h2>Tip Calculator</h2>
+        <!--  Box for Background Animation -->
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--  Form Elements  -->
+    <div id="container">
+        Bill Amount: <input id="bill-amount" type="number" value="0" min="0">
+        Tip Percentage: <input id="tip-percentage" type="number" value="10" min="1" max="100">
+        Total Person <input id="total-person" type="number" min ="1" value="1">
+        Tip Amount per Person: <input id="tip-amount-per-person" type="number">
+        Total Bill per Person: <input id="total-bill-per-person" type="number">
+        <button id="btn">Calculate</button>
+    </div>
+
+    <script src="main.js"></script>
+</html>
